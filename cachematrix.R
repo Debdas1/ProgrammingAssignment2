@@ -1,4 +1,4 @@
-## The following two functions can be used to cache inverset of a matrix,
+## The following two functions can be used to cache inverse of a matrix,
 ## which is a very computation intensive operation.
 
 ## The first function makeCacheMatrix carries out the following four steps:
@@ -7,8 +7,8 @@
 ## 3. set the inverse of the matrix
 ## 4. get the inverse of the matrix
 ## Sample call of this function:
-## mat<-makeCacheMatrix (x)
-## , Where x is a square matrix
+## m<-makeCacheMatrix (x)
+## Where x is a square matrix
 
 
 makeCacheMatrix <- function(x = matrix()) {
